@@ -16,7 +16,7 @@ This is a simple, fun quiz I made as my first project with HTML, CSS, and JS, wi
 
 ![Screenshot of the quiz](Screenshot.png)
 
-**[Try it here](https://syhavvs.github.io/fun-quiz-time/)**
+**[DEMO](https://syhavvs.github.io/fun-quiz-time/)**
 
 
 ## Features
