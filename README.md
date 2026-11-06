@@ -1,36 +1,36 @@
 # fun-quiz-time
 
-This is a simple, fun quiz I made as my first project with HTML, CSS, and JS
+This is a simple, fun quiz I made as my first project with HTML, CSS, and JS, with fun sound effects and your score at the end.
 
-![Screenshot of the quiz](screenshot.png)
+![Screenshot of the quiz](Screenshot.png)
 
 **[Try it here](https://syhavvs.github.io/fun-quiz-time/)**
 
 
 ## Features
 
-- You can listen and see what happens when you answer, whether you answer correctly or incorrectly.
+- 10 riddles and questions, with four answer choices each.
+- After you click, the right answer turns green, and your pick turns red if it was wrong.
+- A "ding" plays for correct answers and a different sound for wrong ones too.
 - The background is a soft pastel GIF.
 - There is a scoreboard for your end result.
-- The questions are easy and challenging.
-- The theme of this quiz is cute pastel.
-- When you finish a task, it gets crossed out and moves to the bottom of the list.
-- A counter at the top shows how many tasks are left.
+- Some questions are easy, and some are tricky, so read carefully.
+
 
 ## How I made it
 
-I built the app using just JavaScript (no frameworks) so I could see how the page was updating.
-The tasks are stored in an array of objects and whenever there is a change the array is used to regenerate the list.
-The main problem I had was that when the tasks would disappear after a refresh.
-After a while of being confused I looked at the browser dev tools and realised I wasn’t saving anything. I added localStorage to fix this.
-I  chose this project as my first because the basic code structure is simple.
-And It's a soft pastel to match the energy of the quiz's questions.
-
+I chose this project as my first because the basic code structure is simple.
+It's a soft pastel theme to match the energy of the quiz's questions.
+My biggest problem was the sound!! Wrong answers played a sound, but correct ones were silent. The code was fine, so I opened the browser's console and checked the file names. They didn't match my code; it said "correct answer.mp3" with a space, but the file was "correct_answer.mp3" with an underscore. So I fixed it.
+I also found that the score was counted twice because I had written the same code in two different places.
+The questions are stored in a list in the code, and each answer is marked as correct or not, so the same code can show any question.
 
 ## What I learned
-Turns out even a tiny typo can totally break a whole page, though browser dev tools are a lifesaver for tracking down what went wrong.
-Next time, I’m definitely sketching my layout on paper first.
-And I also want to add a feature that lets users drag and rearrange their tasks.
+
+A tiny typo, even a comma, can break a page or show up as a strange dot. 
+I learned to use the Console to find problems instead of guessing. 
+Next, I want to add background music with a mute button, and also add more questions and shuffle them.
+
 
 ## Credits
 
