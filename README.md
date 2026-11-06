@@ -1,4 +1,15 @@
+<div align="center">
+  
 # fun-quiz-time
+  
+</div>
+<div align="center">
+
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Project](https://img.shields.io/badge/Project%20-%20Web%20Game-blue)
+
+
+</div>
 
 This is a simple, fun quiz I made as my first project with HTML, CSS, and JS, with fun sound effects and your score at the end.
 
