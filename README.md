@@ -1,12 +1,13 @@
 <div align="center">
   
-# fun-quiz-time
+<h1> FUN QUIZ TIME </h1>
   
 </div>
 <div align="center">
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Project](https://img.shields.io/badge/Project%20-%20Web%20Game-blue)
+![Project](https://img.shields.io/badge/Project%20-%20Web%20Game-yellow
+)
 
 
 </div>
