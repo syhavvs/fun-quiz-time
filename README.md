@@ -25,6 +25,7 @@ My biggest problem was the sound!! Wrong answers played a sound, but correct one
 I also found that the score was counted twice because I had written the same code in two different places.
 The questions are stored in a list in the code, and each answer is marked as correct or not, so the same code can show any question.
 
+
 ## What I learned
 
 A tiny typo, even a comma, can break a page or show up as a strange dot. 
